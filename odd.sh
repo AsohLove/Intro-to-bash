@@ -7,6 +7,8 @@ echo "==================="
 
 echo "Odd numbers between 1 and 20"
 
+
+
 # echo "Using bash to print out odd numbers"
 for i in {0..20}
 do
@@ -14,3 +16,7 @@ do
         echo $i
     fi 
 done
+
+
+
+echo "Great job!!!" 
