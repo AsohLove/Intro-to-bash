@@ -29,5 +29,5 @@ elif [[ $age -gt 13 && $age -lt 20 ]]; then
 elif [[ $age -gt 20 && $age -lt 50 ]]; then 
     echo "$name is in the age group of Mature"
 else 
-    echo "$name is OLD"
+    echo "$name is of the age group of OLD"
 fi 
