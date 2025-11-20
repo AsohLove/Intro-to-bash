@@ -23,11 +23,11 @@ echo "==================="
 
 
 if [[ $age -lt 13 ]]; then
-    echo "$name is in the age group of Child"
+    echo "The $name user is in the age group of Child"
 elif [[ $age -gt 13 && $age -lt 20 ]]; then
-    echo "$name is in the age group of Teenagers"
+    echo "The $name user is in the age group of Teenagers"
 elif [[ $age -gt 20 && $age -lt 50 ]]; then 
-    echo "$name is in the age group of Mature"
+    echo "The $name user is in the age group of Mature"
 else 
-    echo "$name is of the age group of OLD"
+    echo "$name iuser is of the age group of OLD"
 fi 
